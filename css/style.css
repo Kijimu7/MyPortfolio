@@ -1,0 +1,698 @@
+
+/* Smartphones (portrait) ---------------- */
+@media only screen 
+and (min-width : 200px)
+  and (max-width : 519px)
+{
+
+  .Hi{
+    font-size: 50px;
+    color: pink;
+    display: inline-block;
+  }
+  body{
+    font-family: Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color:  #000;
+    height: 100%;
+     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+ /*-- header --*/ 
+   
+  .site-title{
+       text-align: center;
+       margin-bottom: 10%;
+       font-size: 0.6em;
+       color: #000;
+       padding: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px #C0C0C0;
+	   -moz-box-shadow: 0 8px 6px -6px #C0C0C0;
+	        box-shadow: 0 8px 6px -6px #C0C0C0;
+      
+  }
+  .nav-toggle{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    font-size: 0.7em;
+    padding: 5%;
+     margin-top: 15px;
+   
+  }
+  .hamburger{
+    font-size: 0.4em;
+     display:block;
+         }
+  a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 0.5em;
+  }
+       
+ 
+ 
+.main-navigation{
+  position: fixed;
+  top:0;
+  left:0;
+  width:60%;
+  height:100%;
+  background: #FFF;
+  text-align: left;
+  transform: translateX(-100%);
+    transition: transform 1s ease;
+  display: block;
+  z-index: 1;
+  
+ 
+  	}
+  .main-navigation.open{
+    transform: translateX(0);
+  }
+  .main-navigation .nav-toggle{
+    right: 5%;
+    top:5%;
+    display:block;
+   
+  }
+  .main-navigation ul{
+   margin: 0;
+    padding: 0;
+       
+  }
+  .main-navigation ul a{
+    padding: 0;
+    margin:auto;
+    display: block;
+    
+  }
+  
+  .main-navigation ul li{
+       list-style: none;
+       display:block;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+ 
+  .main-navigation ul a:hover {
+    background: #E8E8E8;
+  }
+  
+  nav li:first-child a{
+    margin-top: 50px;
+  }
+  
+  /*-- about --*/
+  #about{
+      font-size: 0.6em;
+	  margin: 20px;
+   
+      }
+  #about p{
+    white-space: nomal;
+    font-size: 1em;
+   float:left;
+  
+  
+  }
+    .myself{
+      width: 50%;
+      height: 50%;
+      border-radius: 70%;
+      border: 0.5px solid gray;
+   display: block;
+            margin: auto;
+   
+          }
+  .clear{
+    overflow: auto;
+  }
+  #Portfolio{
+    font-size: 0.5em;
+  }
+  #Portfolio h3{
+    margin: 0;
+  }
+  .works img{
+    max-width: 90%;
+          margin: auto;
+    margin-top: 30px;
+    display: block;
+    vertical-align: middle;
+  }
+  .works{
+     text-align: justify;
+  
+  }
+ 
+  .Contact{
+ background: #f2f2f2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  } 
+
+ 
+  .icons{
+    margin: auto;
+        text-align:center;
+    font-size: 0.4em;
+     }
+  a[href^="mailto:"]{
+    font-size: 0.5em;
+  }
+
+
+#niko{
+   background-image: url("https://user-images.githubusercontent.com/31402838/31044291-6f09ca52-a581-11e7-8afa-454aceeebfdb.png");
+   width: 100px;
+   height: 100px;
+   -webkit-animation: move 1s steps(5) infinite;
+   animation: move 2s steps(5) infinite;
+}
+   @-webkit-keyframes move{
+   from{ background-position: 0px;}
+   to{ background-position: -500px;}
+}
+   @keyframes move{
+   from{ background-position: 0px;}
+   to{ background-position: -500px;}
+   }
+}
+/* Smartphones (landscape) ---------------- */
+@media only screen 
+and (min-width : 520px)
+and (max-width : 767px)
+{
+   span{
+  font-size: 50px;
+overflow: hidden;
+  color: pink;
+}
+ body{
+    font-family: Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color:  #000;
+    height: 100%;
+  }
+  
+ /*-- header --*/ 
+  
+  .site-title{
+       text-align: center;
+       margin: 0%;
+       font-size: 0.5em;
+       color: #000;
+       padding: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px #C0C0C0;
+	   -moz-box-shadow: 0 8px 6px -6px #C0C0C0;
+	        box-shadow: 0 8px 6px -6px #C0C0C0;
+      
+  }
+  .nav-toggle{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    font-size: 0.7em;
+    padding: 5%;
+   
+  }
+  .hamburger{
+    font-size: 0.4em;
+     display:block;
+         }
+  a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 0.5em;
+  }
+       
+ 
+ 
+.main-navigation{
+  position: fixed;
+  top:0;
+  left:0;
+  width:30%;
+  height:100%;
+  background: #FFF;
+  text-align: left;
+  transform: translateX(-100%);
+    transition: transform 1s ease;
+  padding-top: 30px;
+  z-index: 1;
+ 
+  	}
+  .main-navigation.open{
+    transform: translateX(0);
+  }
+  .main-navigation .nav-toggle{
+    right: 5%;
+    top:5%;
+    display:block;
+  }
+  .main-navigation ul{
+   margin: 0;
+    padding: 0;
+       
+  }
+  .main-navigation ul a{
+    padding: 0;
+    margin:auto;
+    display: block;
+    
+  }
+  
+  .main-navigation ul li{
+       list-style: none;
+       display:block;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+
+  .main-navigation ul a:hover {
+    background: #E8E8E8;
+  }
+  
+  /*-- about --*/
+  .Hi{
+    font-size: 50px;
+    color: pink;
+    display: inline-block;
+}	
+  #about{
+  
+    font-size: 0.5em;
+      }
+  #about p{
+    word-break: break-all;
+    font-size: 1em;
+    margin: 70px 0px 260px 60px;
+  }
+    .myself{
+      width: 20%;
+      height: 20%;
+      border-radius: 70%;
+      border: solid 1px;
+      display: block;
+      margin: 60px 60px 260px 20px;
+      float: right;
+          }
+  .clear{
+    overflow: hidden;
+  }
+  #Portfolio{
+    font-size: 0.6em;
+  }
+  img.mySlides{
+    max-width: 100%;
+  
+    margin: auto;
+    margin-top: 10%;
+    display: block;
+    
+  }
+  
+  
+  #Contact{
+    font-size: 0.6em;
+	text-align: center;
+    }
+ 
+  .icons{
+	 font-size: 0.6em;
+    margin-top: 10px;
+        text-align:center;
+     }
+  a[href^="mailto:"]{
+    font-size: 0.7em;
+  }
+  #niko{
+   background-image: url("https://user-images.githubusercontent.com/31402838/31044291-6f09ca52-a581-11e7-8afa-454aceeebfdb.png");
+   width: 100px;
+   height: 100px;
+   -webkit-animation: move 1s steps(5) infinite;
+   animation: move 2s steps(5) infinite;
+}
+   @-webkit-keyframes move{
+   from{ background-position: 0px;}
+   to{ background-position: -500px;}
+}
+   @keyframes move{
+   from{ background-position: 0px;}
+   to{ background-position: -500px;}
+   }
+}
+
+
+/* Tablets -------------------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)
+{
+  span{
+  font-size: 50px;
+overflow: hidden;
+  color: pink;
+}
+  
+  body{
+    font-family: Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color:  #000;
+    height: 100%;
+    width: 100%;
+     }
+  
+  .site-title{
+       text-align: center;
+       margin: 0%;
+       font-size: 0.5em;
+       color: #000;
+       padding: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px #C0C0C0;
+	   -moz-box-shadow: 0 8px 6px -6px #C0C0C0;
+	        box-shadow: 0 8px 6px -6px #C0C0C0;
+      
+  }
+  .nav-toggle{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    font-size: 0.7em;
+    padding: 5%;
+   
+  }
+  .hamburger{
+    font-size: 0.4em;
+     display:block;
+ 
+         }
+ 
+  a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 0.5em;
+  }
+       
+ 
+ 
+.main-navigation{
+  position: fixed;
+  top:0;
+  left:0;
+  width:30%;
+  height:100%;
+  background: #FFF;
+  text-align: left;
+  transform: translateX(-100%);
+    transition: transform 1s ease;
+  padding-top:30px;
+  z-index: 1;
+ 
+  	}
+  .main-navigation.open{
+    transform: translateX(0);
+  }
+  .main-navigation .nav-toggle{
+    right: 5%;
+    top:5%;
+    display:block;
+  }
+  .main-navigation ul{
+   margin: 0;
+    padding: 0;
+ 
+         }
+  .main-navigation ul a{
+    padding: 0;
+    margin:auto;
+    display: block;
+    
+  }
+  
+  .main-navigation ul li{
+       list-style: none;
+       display:block;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+ 
+  .main-navigation ul a:hover {
+    background: #E8E8E8;
+  }
+  
+  /*-- about --*/
+    .Hi{
+    font-size: 50px;
+    color: pink;
+    display: inline-block;
+}
+	#about{
+  
+    font-size: 0.6em;
+      }
+  #about p{
+    word-break: break-all;
+    font-size: 1em;
+    margin: 80px 0px 220px 60px;
+  }
+    .myself{
+      width: 20%;
+      height: 20%;
+      border-radius: 70%;
+      border: solid 1px;
+      display: block;
+      margin: 60px 60px 220px;
+          float:right;
+                 
+    }
+  .clear{
+    overflow: hidden;
+  }      
+  
+  #Portfolio{
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 10px;
+      }
+  img.mySlides{
+    max-width: 70%;
+   
+    margin: auto;
+    margin-top: 50px;
+	    display: block;
+    
+  }
+ 
+   
+  #Contact{
+    font-size: 0.5em;
+        padding-top: 100px;
+     
+  }
+.Contact{
+    padding-left: 20px;
+  text-align: center;
+  margin:0px;
+}
+ 
+  .icons{
+    padding-left: 30px;
+    margin-top:10px;
+     margin:0px;
+	 font-size: 0.6em;
+	 text-align: right;
+	 
+        
+     }
+  a[href^="mailto:"]{
+    font-size: 1em;
+     margin:0px;
+    
+      }
+
+}
+
+
+
+
+/* Old Desktops and laptops ------------------ */
+@media only screen 
+and (min-width : 1025px) 
+{
+   span{
+  font-size: 50px;
+overflow: hidden;
+  color: pink;
+}
+body{
+    font-family: Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color:  #000;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+	overflow-y: scroll;
+     }
+  
+ /*-- header --*/ 
+
+  .site-title{
+    background-color:#FFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+       text-align: center;
+       margin: 0%;
+       font-size: 0.7em;
+       color: #000;
+    font-weight: bold;
+       padding: 2%;
+    -webkit-box-shadow: 0 8px 6px -6px #C0C0C0;
+	   -moz-box-shadow: 0 8px 6px -6px #C0C0C0;
+	        box-shadow: 0 8px 6px -6px #C0C0C0;
+			z-index: 1;
+			
+
+  }
+
+  .hamburger{
+    font-size: 0.4em;
+     display:none;
+            }
+   
+ nav.main-navigation{
+position: fixed;
+  top:0%;
+   left: 0%;
+   z-index: 2;
+ 
+  
+        
+     	}
+
+
+  .main-navigation .nav-toggle{
+   display:none;
+  }
+  .main-navigation ul{
+   margin: 0%;
+    padding: 0%;
+    display: flex;
+      
+
+  }
+  .main-navigation ul a{
+    padding: 0;
+    margin:auto;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.5em;
+    
+  }
+  
+  .main-navigation ul li{
+       list-style: none;
+       display: inline-block;
+   margin-left:5%;
+    padiing-bottom: 30%;
+    
+  }
+  
+
+  .main-navigation ul a:hover {
+    background: #E8E8E8;
+  }
+  
+  /*-- about --*/
+	  .Hi{
+    font-size: 50px;
+    color: pink;
+    display: inline-block;
+}
+  #about{
+  
+    font-size: 0.6em;
+      }
+  .clear p{
+  
+    font-size: 1em;
+   padding-top:13%;
+    padding-left:10%;
+  }
+    .myself{
+      width: 25%;
+      height: 25%;
+      border-radius: 70%;
+      border: solid 1px;
+      display: block;
+      margin-top: 10%;
+      margin-right: 20%;
+      float:right;
+            
+    }
+  .clear{
+    overflow: hidden;
+  }
+  #Portfolio{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 500px;
+   
+  }
+  .Portfolio{
+    padding-top:100px;
+            }
+  .Portfolio h3{
+    margin-bottom: -90px;
+     
+  }
+  img.mySlides{
+     max-width: 32%;
+    
+    margin: auto;
+    margin-top: 10%;
+    display:inline-block;
+     
+  }
+
+  
+/*-- contact --*/
+  
+  .icons{
+           text-align: right;
+    font-size: 0.5em;
+    margin: 20px 40px 10px 300px;
+    display: inline-block;
+     }
+  a[href^="mailto:"]{
+    font-size: 0.5em;
+    margin: 0px 30px 40px 120px;
+
+  }
+      a:visited {
+    color: #000;
+}
+  a:link {
+    color: #000;
+}
+  .Contact{
+    background: #f2f2f2;
+  }
+}
+
+
+
+  
+
