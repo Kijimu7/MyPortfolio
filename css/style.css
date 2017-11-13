@@ -167,23 +167,8 @@ and (min-width : 200px)
     font-size: 0.5em;
   }
 
+}
 
-#niko{
-   background-image: url("https://user-images.githubusercontent.com/31402838/31044291-6f09ca52-a581-11e7-8afa-454aceeebfdb.png");
-   width: 100px;
-   height: 100px;
-   -webkit-animation: move 1s steps(5) infinite;
-   animation: move 2s steps(5) infinite;
-}
-   @-webkit-keyframes move{
-   from{ background-position: 0px;}
-   to{ background-position: -500px;}
-}
-   @keyframes move{
-   from{ background-position: 0px;}
-   to{ background-position: -500px;}
-   }
-}
 /* Smartphones (landscape) ---------------- */
 @media only screen 
 and (min-width : 520px)
@@ -334,21 +319,6 @@ overflow: hidden;
   a[href^="mailto:"]{
     font-size: 0.7em;
   }
-  #niko{
-   background-image: url("https://user-images.githubusercontent.com/31402838/31044291-6f09ca52-a581-11e7-8afa-454aceeebfdb.png");
-   width: 100px;
-   height: 100px;
-   -webkit-animation: move 1s steps(5) infinite;
-   animation: move 2s steps(5) infinite;
-}
-   @-webkit-keyframes move{
-   from{ background-position: 0px;}
-   to{ background-position: -500px;}
-}
-   @keyframes move{
-   from{ background-position: 0px;}
-   to{ background-position: -500px;}
-   }
 }
 
 
